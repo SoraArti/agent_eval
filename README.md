@@ -2,6 +2,10 @@
 
 Minimal evaluation runner for agentic coding tools such as Claude Code and Codex.
 
+Chinese introduction:
+
+- `README.zh-CN.md`
+
 This repository is intended to evaluate coding agents through three automated steps:
 
 - setup a tool environment
