@@ -1,0 +1,13 @@
+profiles:
+  - name: locked_down
+    description: Local-only execution with no network and no new dependency installation.
+    network: false
+    install_deps: false
+    time_limit_min: 45
+    turn_limit: 50
+  - name: practical
+    description: Practical execution with network and dependency installation allowed.
+    network: true
+    install_deps: true
+    time_limit_min: 45
+    turn_limit: 50

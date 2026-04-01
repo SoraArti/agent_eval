@@ -1,0 +1,7 @@
+models:
+  - tool: claude_code
+    model: placeholder-default
+    profile: practical
+  - tool: codex
+    model: placeholder-default
+    profile: practical

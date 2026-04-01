@@ -1,0 +1,12 @@
+job_id: demo_codex
+benchmark: demo_repo_task
+tool: codex
+model: placeholder-default
+profile: practical
+timeout_min: 10
+retries: 0
+params:
+  mode: dry_run
+task_spec: |
+  Write a short artifact file named generated_artifact.txt into the job output directory.
+  Include the tool name, job id, and current UTC timestamp in the file content.

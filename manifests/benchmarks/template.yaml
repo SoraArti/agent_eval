@@ -1,0 +1,13 @@
+benchmark_id: template_benchmark
+description: Template for a real benchmark adapter.
+task_spec: |
+  Replace this with a concrete task description.
+verification:
+  type: command
+  command: "echo TODO"
+  success_regex: "TODO"
+data:
+  repo_url: ""
+  repo_commit: ""
+  dataset_path: ""
+  notes: ""

@@ -1,0 +1,7 @@
+benchmark_id: demo_repo_task
+description: Minimal local demo benchmark used to validate runner wiring.
+task_spec: |
+  Create a small text artifact that shows the tool received the task and can write outputs.
+verification:
+  type: file_exists
+  required_file: generated_artifact.txt

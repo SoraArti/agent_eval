@@ -1,0 +1,13 @@
+benchmark_id: repobench_stub
+description: Stub for repo-level navigation and modification tasks.
+task_spec: |
+  Make the requested change in the repository. Focus on locating the right files.
+verification:
+  type: command
+  command: "bash -lc \"./verify.sh\""
+  success_regex: "OK"
+data:
+  repo_url: "https://github.com/<org>/<repo>"
+  repo_commit: "<commit_sha>"
+  task_id: "<task_id>"
+  notes: "Replace with actual RepoBench task metadata."

@@ -1,0 +1,12 @@
+job_id: swe_lite_0001_codex
+benchmark: swe_bench_lite_stub
+tool: codex
+model: placeholder-default
+profile: practical
+timeout_min: 90
+retries: 0
+params:
+  mode: dry_run
+task_spec: |
+  Fix the issue described in ISSUE-1234 for the target repo.
+  Run ./run_tests.sh and ensure it passes.

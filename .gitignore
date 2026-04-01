@@ -1,0 +1,9 @@
+outputs/
+state/*.json
+state/*.db
+state/*.sqlite3
+state/*.log
+__pycache__/
+runner/__pycache__/
+tests/__pycache__/
+*.pyc

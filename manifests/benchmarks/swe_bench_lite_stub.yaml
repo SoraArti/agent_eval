@@ -1,0 +1,14 @@
+benchmark_id: swe_bench_lite_stub
+description: Stub for SWE-bench Lite style repo bugfix tasks.
+task_spec: |
+  Fix the described issue in the target repository and run the provided tests.
+verification:
+  type: command
+  command: "bash -lc \"./run_tests.sh\""
+  success_regex: "PASS"
+data:
+  repo_url: "https://github.com/<org>/<repo>"
+  repo_commit: "<commit_sha>"
+  issue_id: "<issue_id>"
+  tests: "./run_tests.sh"
+  notes: "Replace with per-task repo commit and test command."

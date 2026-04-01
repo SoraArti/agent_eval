@@ -1,0 +1,12 @@
+job_id: repobench_0001_claude_code
+benchmark: repobench_stub
+tool: claude_code
+model: placeholder-default
+profile: practical
+timeout_min: 60
+retries: 0
+params:
+  mode: dry_run
+task_spec: |
+  Locate the file that defines the main entrypoint and add a short comment.
+  Run ./verify.sh and ensure it prints OK.
